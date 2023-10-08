@@ -97,3 +97,48 @@ li {
 }
 
 /* Style for Section 2 */
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center vertically */
+  text-align: center;
+  height: 100vh; /* Set a height to take up the full viewport height */
+}
+
+.section2 .main-content {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.section2 .main-content h2 {
+  width: 800px;
+  height: 180px;
+  font-size: 44px;
+  letter-spacing: 0px;
+  color: #506a85;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+  margin: 0 auto 10px; /* Center horizontally and add margin at the bottom */
+}
+
+.section2 .main-content p {
+  margin: 0; /* Remove default margin */
+}
+
+.section2 .sub-content {
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+}
+
+.section2 .sub-content h3 {
+  margin: 0;
+}
+
+.section2 .sub-content p {
+  margin: 0;
+}
