@@ -8,6 +8,7 @@
 
 .header-contact span {
   margin: 0 13px;
+  text-align: left;
 }
 .header-social {
   margin: 0;
@@ -31,6 +32,14 @@
   height: 110px;
   border-bottom: 1px solid #e6e9ed;
   padding: 34px 0;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 100%; /* Ensure the logo image does not exceed its container's width */
+  height: auto; /* Maintain the aspect ratio of the logo */
+  display: block; /* Remove any extra spacing or alignment issues */
+  margin: 0 auto; /* Center the logo horizontally within its container */
 }
 
 .menu {
@@ -62,9 +71,17 @@
   color: rgb(5, 37, 37);
 }
 
+/*---*/
 .featured-area {
-  background-color: #506a85;
   height: 680px;
+  background-color: #506a85;
+  background-image: url("images/back.png");
+
+  /* Specify background properties */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image horizontally and vertically */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  height: 100vh; /* Set the height of the section as needed */
 }
 
 .featured-area-content {
@@ -144,4 +161,47 @@
 
 .services-content {
   margin-top: 60px;
+}
+
+/*---*/
+
+.blog-section {
+  background-color: #e4ecef;
+  padding: 125px 0;
+  text-align: center;
+}
+
+.section-head h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 44px;
+  color: #506a85;
+}
+
+.section-head p {
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  color: #73879b;
+  margin-top: 20px;
+}
+
+.latest-post {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.post-col-inner {
+  background-color: #ffffff;
+}
+
+.post-col h5 {
+  text-align: center;
+  margin-top: 15px;
+  color: #506a85;
+}
+.post-col p {
+  margin-top: 5px;
+  color: #8e9194;
 }
