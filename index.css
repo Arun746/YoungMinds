@@ -166,7 +166,7 @@
 /*---*/
 
 .blog-section {
-  background-color: #e4ecef;
+  background-color: #e0e5e7;
   padding: 125px 0;
   text-align: center;
 }
@@ -204,4 +204,40 @@
 .post-col p {
   margin-top: 5px;
   color: #8e9194;
+}
+
+/*---*/
+.last-section {
+  text-align: center;
+  height: 380px;
+  background-color: #eff4f6;
+}
+
+.last-section-content {
+  color: #ffffff;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.last-section-content h3 {
+  display: block;
+  width: 960px;
+  color: #506a85;
+  max-width: 100%;
+  font-size: 50px;
+  margin-top: 0;
+}
+.last-section-content p {
+  font-size: 18px;
+  color: #73879c;
+  margin-top: 30px;
+}
+
+.last-section-btn {
+  font-weight: bold;
+  font-size: 19px;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 70px;
 }
