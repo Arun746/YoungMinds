@@ -86,6 +86,7 @@
 .featured-area-content p {
   font-size: 18px;
   color: #a3b1bf;
+  margin-top: 30px;
 }
 
 .featured-text-row {
@@ -128,4 +129,19 @@
 .services-head p {
   font-size: 20px;
   color: #738793;
+}
+
+.service-text h3 {
+  font-size: 24px;
+  color: #506a85;
+  text-align: left;
+}
+.service-text p {
+  font-size: 16px;
+  color: #73879c;
+  text-align: left;
+}
+
+.services-content {
+  margin-top: 60px;
 }
