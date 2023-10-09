@@ -1,144 +1,131 @@
-body,
-ul,
-li {
+.mini-header {
+  height: 41px;
+  background-color: #f5f7f9;
+  color: #506a85;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.header-contact span {
+  margin: 0 13px;
+}
+.header-social {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: right;
 }
 
-/* Style for the header */
-.header {
-  background-color: #f5f7f9;
+.header-social li {
+  display: inline-block;
   color: #506a85;
-  padding: 20px;
-  text-align: center;
-}
-/* Style for the content above the navbar */
-.header-content {
-  margin-bottom: 20px;
-  display: flex;
-  color: #506a85;
+  font-size: 15px;
+  margin: 0 10px;
 }
 
-.header-content h1 {
-  font-size: 24px;
-  font-weight: bold;
+.header-social li:hover {
+  color: rgb(6, 48, 48);
 }
 
-/* Style for the navbar */
-.navbar {
-  background-color: #ffffff;
-  height: 50px;
-  color: #506a85;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.main-header {
+  height: 110px;
+  border-bottom: 1px solid #e6e9ed;
+  padding: 34px 0;
 }
 
-/* Style for the logo text */
-.navbar .logo {
-  color: #506a85;
-}
-
-/* Style for the navigation links */
-.navbar .nav-links {
-  display: flex;
+.menu {
+  margin: 0;
+  padding: 0;
   list-style: none;
+  text-align: left;
 }
 
-.navbar .nav-links li {
-  margin-right: 20px;
+.menu li {
+  display: inline-block;
 }
 
-/*maincontent*/
-
-/* Style for Section 1 */
-.section1 {
-  background-color: #506a85;
-  padding: 40px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Ensures the section takes at least the viewport height */
-}
-
-.section1 h1 {
-  width: 970px;
-  height: 180px;
-  font-size: 80px;
-  letter-spacing: 3px;
-  line-height: 88px;
+.menu li a {
   text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 900;
-  font-family: "Lato";
-  margin: 0; /* Remove any default margin on h1 */
+  font-size: 15px;
+  font-weight: bold;
+  color: #506a85;
+  line-height: 40px;
+  margin: 0 15px;
 }
 
-.section1 p {
+.search {
+  text-align: right;
+  line-height: 40px;
+}
+
+.menu li a:hover {
+  color: rgb(5, 37, 37);
+}
+
+.featured-area {
+  background-color: #506a85;
+  height: 680px;
+}
+
+.featured-area-content {
+  color: #ffffff;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 180px;
+}
+
+.featured-area-content h1 {
+  display: block;
+  width: 960px;
+  max-width: 100%;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.featured-area-content p {
+  font-size: 18px;
   color: #a3b1bf;
 }
 
-.btn {
-  font-size: 18px;
-  letter-spacing: 0px;
+.featured-text-row {
+  margin-bottom: 60px;
+}
+.featured-area-btn {
+  background-color: #117758;
+  font-weight: bold;
+  font-size: 19px;
   text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 700;
-  font-family: "Source Sans Pro";
-  text-align: center;
-  width: 295px;
-  height: 65px;
-  border-radius: 3px;
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.15);
-  background-color: #00bb9b;
+  border: none;
+  border-bottom: 2px solid;
+  padding: 20px 70px;
 }
 
-/* Style for Section 2 */
-.section2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; /* Center vertically */
-  text-align: center;
-  height: 100vh; /* Set a height to take up the full viewport height */
-}
+/*---*/
 
-.section2 .main-content {
+.services {
+  padding: 125px 0;
   background-color: #ffffff;
-  padding: 20px;
   text-align: center;
-  margin: 0;
 }
 
-.section2 .main-content h2 {
-  width: 800px;
-  height: 180px;
-  font-size: 44px;
-  letter-spacing: 0px;
-  color: #506a85;
-  font-weight: 700;
-  font-family: "Lato";
-  text-align: center;
-  margin: 0 auto 10px; /* Center horizontally and add margin at the bottom */
+.services-head-container {
+  width: 820px;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-.section2 .main-content p {
-  margin: 0; /* Remove default margin */
-}
-
-.section2 .sub-content {
-  text-align: left;
-  padding: 10px;
+.services-head h2 {
   width: 100%;
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: #506a85;
+  margin-top: 0;
+  margin-bottom: 35px;
 }
 
-.section2 .sub-content h3 {
-  margin: 0;
-}
-
-.section2 .sub-content p {
-  margin: 0;
+.services-head p {
+  font-size: 20px;
+  color: #738793;
 }
