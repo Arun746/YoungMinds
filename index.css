@@ -243,11 +243,16 @@
 }
 
 /*---*/
+
+footer {
+  height: auto;
+}
 /* CSS for the main footer */
 .main-footer {
   background-color: #2f3f51;
   color: #99a1aa;
   padding: 20px 0;
+  height: auto;
 }
 
 /* Style the h5 headings */
@@ -291,15 +296,18 @@
 
 /* CSS for the minifooter */
 .mini-footer {
-  height: 45px;
+  height: 80px;
   background-color: #273545;
   color: #8094a9;
   font-size: 15px;
-  line-height: 40px;
+  line-height: 60px;
 }
 
 .footer-menu li {
   display: inline-block;
   margin: 0 10px;
   text-align: right;
+}
+.top-button {
+  margin-top: 20px;
 }
