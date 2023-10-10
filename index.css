@@ -241,3 +241,65 @@
   border: none;
   padding: 20px 70px;
 }
+
+/*---*/
+/* CSS for the main footer */
+.main-footer {
+  background-color: #2f3f51;
+  color: #99a1aa;
+  padding: 20px 0;
+}
+
+/* Style the h5 headings */
+.main-footer h5 {
+  font-size: 18px;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* Style the logo image */
+.main-footer .footer-logo img {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0) invert(1); /* Make the logo white */
+}
+
+/* Style the paragraph */
+.main-footer p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Center the text and logo vertically */
+.main-footer .col-sm-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+.footer-contact span i {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.last-post {
+  margin-top: 20px;
+}
+
+/* CSS for the minifooter */
+.mini-footer {
+  height: 45px;
+  background-color: #273545;
+  color: #8094a9;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: right;
+}
